@@ -1,0 +1,7 @@
+﻿     Creating library C:\Users\Antoine\source\repos\FC_HD\x64\Debug\dinput8.lib and object C:\Users\Antoine\source\repos\FC_HD\x64\Debug\dinput8.exp
+TextureInjector.obj : error LNK2019: unresolved external symbol D3DXGetImageInfoFromFileInMemory referenced in function "long __cdecl D3DXCreateTextureFromFileInMemoryEx_Detour(struct IDirect3DDevice9 *,void const *,unsigned int,unsigned int,unsigned int,unsigned int,unsigned long,enum _D3DFORMAT,enum _D3DPOOL,unsigned long,unsigned long,unsigned long,struct _D3DXIMAGE_INFO *,struct tagPALETTEENTRY *,struct IDirect3DTexture9 * *)" (?D3DXCreateTextureFromFileInMemoryEx_Detour@@YAJPEAUIDirect3DDevice9@@PEBXIIIIKW4_D3DFORMAT@@W4_D3DPOOL@@KKKPEAU_D3DXIMAGE_INFO@@PEAUtagPALETTEENTRY@@PEAPEAUIDirect3DTexture9@@@Z)
+C:\Users\Antoine\source\repos\FC_HD\FC_HD\lib\d3dx9.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Antoine\source\repos\FC_HD\FC_HD\lib\d3d9.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Antoine\source\repos\FC_HD\FC_HD\lib\d3d8.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Antoine\source\repos\FC_HD\FC_HD\lib\d3dx8.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Antoine\source\repos\FC_HD\x64\Debug\dinput8.dll : fatal error LNK1120: 1 unresolved externals

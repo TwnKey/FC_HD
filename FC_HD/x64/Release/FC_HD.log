@@ -1,0 +1,3 @@
+﻿     Creating library C:\Users\Antoine\source\repos\FC_HD\x64\Release\dinput8.lib and object C:\Users\Antoine\source\repos\FC_HD\x64\Release\dinput8.exp
+TextureInjector.obj : error LNK2001: unresolved external symbol D3DXGetImageInfoFromFileInMemory
+C:\Users\Antoine\source\repos\FC_HD\x64\Release\dinput8.dll : fatal error LNK1120: 1 unresolved externals

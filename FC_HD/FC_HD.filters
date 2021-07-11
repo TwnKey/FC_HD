@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dinput8.cpp" />
+    <ClCompile Include="Patch\Patch.cpp" />
+    <ClCompile Include="Utilities\Utilities.cpp" />
+    <ClCompile Include="ProgressBar.cpp" />
+    <ClCompile Include="d3d8_hook\D3D8_injector.cpp">
+      <Filter>d3d8</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureInjector.cpp" />
+    <ClCompile Include="include\MinHook\src\buffer.c">
+      <Filter>MH</Filter>
+    </ClCompile>
+    <ClCompile Include="include\MinHook\src\hook.c">
+      <Filter>MH</Filter>
+    </ClCompile>
+    <ClCompile Include="include\MinHook\src\trampoline.c">
+      <Filter>MH</Filter>
+    </ClCompile>
+    <ClCompile Include="include\MinHook\src\hde\hde32.c">
+      <Filter>MH</Filter>
+    </ClCompile>
+    <ClCompile Include="include\MinHook\src\hde\hde64.c">
+      <Filter>MH</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utf8">
+      <UniqueIdentifier>{aa555afc-a23a-447d-8ae5-fcecae075d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d3d8">
+      <UniqueIdentifier>{d37e6951-8c85-4dd7-ae91-7dbadca3ad8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MH">
+      <UniqueIdentifier>{d80520dc-7990-4834-bd3c-7d5ed80601e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Patch\Patch.h" />
+    <ClInclude Include="PatternFinder\Patterns.h" />
+    <ClInclude Include="Utilities\Utilities.h" />
+    <ClInclude Include="utf8\checked.h">
+      <Filter>utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="utf8\core.h">
+      <Filter>utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="utf8\unchecked.h">
+      <Filter>utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="utf8.h" />
+    <ClInclude Include="ProgressBar.h" />
+    <ClInclude Include="d3d8_hook\D3D8_injector.h">
+      <Filter>d3d8</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureInjector.h" />
+    <ClInclude Include="include\MinHook\MinHook.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MinHook\src\buffer.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MinHook\src\trampoline.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MinHook\src\hde\hde32.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MinHook\src\hde\hde64.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MinHook\src\hde\pstdint.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MinHook\src\hde\table32.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MinHook\src\hde\table64.h">
+      <Filter>MH</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
