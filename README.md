@@ -10,7 +10,8 @@ This injector was made because packing all the DDS of the game inside ED6_DT15.d
 It is compatible with the SoraVoice patch if you use the dsound dll instead of the dinput8 dll.
 
 # How to use it
-
+0 - Get textures here: 
+https://drive.google.com/file/d/1ADHWFsviyuC9UVtylCnlSovfckXY6XAJ/view?usp=sharing
 1- Put your ED6_DT04.DAT/DIR, ED6_DT06.DAT/DIR, ED6_DT07.DAT/DIR and ED6_DT09.DAT/DIR containing upscaled spritesheets in the game folder\
 2 - (Optional if you set "textureinjection" to false) Create a "textures" folder where you put all the upscaled textures of the game \
 3 - Place dinput8.dll inside the game folder\
@@ -30,3 +31,5 @@ I will write the process later.
 - Lack of testing (didn't do a full playthrough + only tested with upscale factor of 2)
 - Some textures are conveniently not upscaled (textbox, minimap, ...) 
 - Loading a savefile that was created using a non HD version of the game can crash it shortly after. However once a new map is loaded, the game should be stable.
+
+
