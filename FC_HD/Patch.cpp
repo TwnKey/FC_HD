@@ -410,7 +410,7 @@ bool Patch::ApplyHDSprites() {
 	
 
 	int twentythird_addr_offset = 0x1;
-	size = read_int((void*)(addr21 + twentythird_addr_offset + 1));
+	size = read_int((void*)(addr21 + twentythird_addr_offset));
 	size = size * parameters.upscaling_factor;
 	size_vector = number_to_bytes(size, 4);
 	std::vector<BYTE> twentythird_modif = {size_vector[0], size_vector[1], size_vector[2], size_vector[3] };
@@ -418,7 +418,7 @@ bool Patch::ApplyHDSprites() {
 
 
 	int twentysixth_addr_offset = 0x1;
-	size = read_int((void*)(addr24 + twentysixth_addr_offset + 1));
+	size = read_int((void*)(addr24 + twentysixth_addr_offset));
 	size = size * parameters.upscaling_factor;
 	size_vector = number_to_bytes(size, 4);
 	std::vector<BYTE> twentysixth_modif = { size_vector[0], size_vector[1], size_vector[2], size_vector[3] };
