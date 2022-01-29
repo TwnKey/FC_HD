@@ -1,3 +1,5 @@
+Latest update killed this mod, sorry
+
 # What is this mod?
 
 This mod is intended for the game The Legend of Heroes: Trails in the Sky FC. It changes the hardcoded resolution of the spritesheets for characters and monsters, allowing to use upscaled spritesheets. This can be applied to both DX8 and DX9 executables.\
